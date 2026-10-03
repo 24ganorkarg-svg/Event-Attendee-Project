@@ -1,0 +1,16 @@
+{
+  "name": "gather-event-attendee-manager",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Event and attendee management with Express, SQLite and vanilla JavaScript.",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "seed": "node server/seed.js",
+    "test": "node --test",
+    "check": "node --check server/index.js && node --check public/app.js"
+  },
+  "dependencies": { "express": "^5.1.0" }
+}
